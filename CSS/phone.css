@@ -174,7 +174,13 @@
 
 /* footer */
 
-
+#contact{
+    position: absolute;
+    width: 100vw;
+    margin-top: -50px;
+    /* margin-left: 0px; */
+    height: 480px;
+}
 #contact::before{
     content: "";
     position: absolute;
@@ -192,4 +198,9 @@
     text-align: center;
     margin-left: 133px;
     width: 500px;
+}
+.footer{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 214px;
 }
