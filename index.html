@@ -152,6 +152,28 @@
             Copyright &copy; www.foodie.com. All rights are reserved!
         </div>
     </footer>
+    <script>
+        friends = ["suraj", "aalok", "bishal", "riti", "neha"]
+        console.log("i am in.")
+        for (let i = 0; i < friends.length; i++) {
+            const element = friends[i];
+            console.log(element)
+        }
+        // friends.forEach(element => {
+        //     console.log("hello guys," + element)
+        // });
+        // for (const element of friends) {
+        //     console.log("hello guys," + element + " again")
+        // }
+        let intro = {
+            name: "suraj",
+            work: "programmer",
+            aim: "lambo"
+        }
+        for (const key in intro) {
+            console.log(`the ${key} of employee is ${intro[key]}`)
+        }
+    </script>
 </body>
 
 
